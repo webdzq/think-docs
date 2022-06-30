@@ -13,12 +13,11 @@
 
 将一些技术性不强，比较繁琐的环节，用智能化平台代替，将更多精力用在后续业务场景技术方案设计及逻辑算法落地的过程中。
 
-‌![架构图](./imgs/dev46.png)
+‌![架构图](./imgs/dev46.png)  
 
 ## 行业现状
 
-国内巨头们都已经布局了。大厂如阿里，腾讯，字节，京东、美团。中小厂如58集团、蓝狐、深圳光速。其中行业很优得阿里团队。国外微软最早开源，国内58开源。
-
+国内巨头们都已经布局了。大厂如阿里，腾讯，字节，京东、美团。中小厂如58集团、蓝狐、深圳光速。其中行业很优得阿里团队。国外微软最早开源，国内58开源。  
 
 | 公司     | 产品名              | 对外发布时间 | 核心能力                                                                                              | 团队规模 | 开源情况 | 用途     |
 | -------- | ------------------- | ------------ | ----------------------------------------------------------------------------------------------------- | -------- | -------- | -------- |
@@ -45,18 +44,24 @@
 
 3、偏向平台类项目，根据经验做好项目模板和原子库，用户通过拓展组装成想要的平台。如蚂蚁宜搭，apass项目等。
 ‌![架构图](./imgs/dev49.png)
+
 ## 可达成路径
+
 基于sketch插件的探索。一共分为三步。
 先介绍一下，sketch插件开发架构图, 6个层，从上到下执行流程，最后生成自用的插件。
 ‌![架构图](./imgs/dev50.png)
+
 ### 一、sketch插件和设计稿JSON
+
 1、sketch本身就是一个软件工具，提供给用户的工具有图层、容器、形状、文本等，这一系列动作产生的设计稿都可以转换为一个json来表示。
 ‌![架构图](./imgs/dev51.png)
 2、规范化设计与开发之间的标准结构。
 对设计稿进行图层重构（基于位置，大小，层次等属性，重新排版），变成开发期望的图层描述结构。
 ‌![架构图](./imgs/dev52.png)
 ‌![架构图](./imgs/dev53.png)
+
 ### 二、将设计稿JSON基于DSL转化语言模板
+
 DSL（领域专用语言）把设计稿JSON中的特征字段解析成我们想要的领域语言结构。
 设计稿JSON蕴含了如下信息：
 1）画板元素结构信息（前后左右元素组织）
@@ -76,21 +81,25 @@ DSL（领域专用语言）把设计稿JSON中的特征字段解析成我们想�
 拓展能力：自有组件的DSL库、图片AI识别，多种端领域语言能力(Android/ios),样式规范（下划线/大驼峰）,元素单位(px/pt/rem/rpx)
 下图是比较完整的平台架构，包括关键的功能模块。最有技术挑战的是AI平台。
 ‌![架构图](./imgs/dev57.png)
+
 ## 总结
+
 技术为业务赋能，D2C为技术赋能！
 感谢大家的参与，有不足之前请大家帮忙补充，期待一起共建。
+
 ## 参考文献
-1、sketch手册：http://www.sketchcn.com/sketch-chinese-user-manual.html#fills
-2、imgcook（部分开源）：https://www.imgcook.com/
-3、转转马良（不开源）：https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/123911152
-4、58-毕加索（开源）：https://github.com/wuba/Picasso/
-5、微软草图转代码（开源）：https://github.com/Microsoft/ailab/tree/master/Sketch2Code
-6、组件转代码（开源）：https://github.com/plasmicapp/plasmic
-7、腾讯codesign（不开源）：https://codesign.qq.com/hc/design/codefun/
-8、codeFun（不开源）：https://code.fun/
-9、京东（不开源）：https://deco-preview.jd.com/
-10、字节（开源）：https://arco.design/
-11、蓝狐（不开源）：https://support.lanhuapp.com/5612/2a6d/86ab#main_content
-12、美团（不开源）:https://zhuanlan.zhihu.com/p/360099631
-13、美团（不开源）:https://tech.meituan.com/2020/05/21/waimai-sketch-plugin.html
-14、sketch中文插件库：https://oursketch.com/plugin
+
+1、sketch手册：<http://www.sketchcn.com/sketch-chinese-user-manual.html#fills>
+2、imgcook（部分开源）：<https://www.imgcook.com/>
+3、转转马良（不开源）：<https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/123911152>
+4、58-毕加索（开源）：<https://github.com/wuba/Picasso/>
+5、微软草图转代码（开源）：<https://github.com/Microsoft/ailab/tree/master/Sketch2Code>
+6、组件转代码（开源）：<https://github.com/plasmicapp/plasmic>
+7、腾讯codesign（不开源）：<https://codesign.qq.com/hc/design/codefun/>
+8、codeFun（不开源）：<https://code.fun/>
+9、京东（不开源）：<https://deco-preview.jd.com/>
+10、字节（开源）：<https://arco.design/>
+11、蓝狐（不开源）：<https://support.lanhuapp.com/5612/2a6d/86ab#main_content>
+12、美团（不开源）:<https://zhuanlan.zhihu.com/p/360099631>
+13、美团（不开源）:<https://tech.meituan.com/2020/05/21/waimai-sketch-plugin.html>
+14、sketch中文插件库：<https://oursketch.com/plugin>
