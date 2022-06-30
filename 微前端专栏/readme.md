@@ -12,4 +12,14 @@
 - 乾坤：<https://qiankun.umijs.org/zh/guide>
 - vite:<https://vitejs.cn/guide/>
 - webpack5:<https://webpack.docschina.org/concepts/>
+
+
+ github上不显示图片，可以设置host
+
+ ```sh
+
+199.232.68.133 raw.githubusercontent.com
+199.232.68.133 githubusercontent.com
+
+```
   
