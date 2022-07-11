@@ -102,13 +102,22 @@
 
 ## 参考资料
 
-imgcook（部分开源）：<https://www.imgcook.com/>
-转转马良（不开源）：<https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/123911152>
-58-毕加索（开源）：<https://github.com/wuba/Picasso/>
-微软草图转代码（开源）：<https://github.com/Microsoft/ailab/tree/master/Sketch2Code>
-组件转代码（开源）：<https://github.com/plasmicapp/plasmic>
-腾讯codesign（不开源）：<https://codesign.qq.com/hc/design/codefun/>
-codeFun（不开源）：<https://code.fun/>
-京东（不开源）：<https://deco-preview.jd.com/>
-字节（开源）：<https://arco.design/>
-蓝狐（不开源）：<https://support.lanhuapp.com/5612/2a6d/86ab#main_content>
+imgcook（部分开源）：<https://www.imgcook.com/>   
+
+转转马良（不开源）：<https://blog.csdn.net/P6P7qsW6ua47A2Sb/article/details/123911152>   
+
+58-毕加索（开源）：<https://github.com/wuba/Picasso/>   
+
+微软草图转代码（开源）：<https://github.com/Microsoft/ailab/tree/master/Sketch2Code>  
+
+组件转代码（开源）：<https://github.com/plasmicapp/plasmic>   
+
+腾讯codesign（不开源）：<https://codesign.qq.com/hc/design/codefun/>  
+
+codeFun（不开源）：<https://code.fun/>   
+
+京东（不开源）：<https://deco-preview.jd.com/>   
+
+字节（开源）：<https://arco.design/>   
+
+蓝狐（不开源）：<https://support.lanhuapp.com/5612/2a6d/86ab#main_content>   
