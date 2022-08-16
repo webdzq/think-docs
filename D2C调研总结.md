@@ -44,20 +44,21 @@
 
 3、偏向平台类项目，根据经验做好项目模板和原子库，用户通过拓展组装成想要的平台。如蚂蚁宜搭，apass项目等。
 ‌![架构图](./imgs/dev49.png)
+‌![架构图](./imgs/dev50.png)
 
 ## 可达成路径
 
 基于sketch插件的探索。一共分为三步。
 先介绍一下，sketch插件开发架构图, 6个层，从上到下执行流程，最后生成自用的插件。
-‌![架构图](./imgs/dev50.png)
+‌![架构图](./imgs/dev51.png)
 
 ### 一、sketch插件和设计稿JSON
 
 1、sketch本身就是一个软件工具，提供给用户的工具有图层、容器、形状、文本等，这一系列动作产生的设计稿都可以转换为一个json来表示。
-‌![架构图](./imgs/dev51.png)
+‌![架构图](./imgs/dev52.png)
 2、规范化设计与开发之间的标准结构。
 对设计稿进行图层重构（基于位置，大小，层次等属性，重新排版），变成开发期望的图层描述结构。
-‌![架构图](./imgs/dev52.png)
+‌
 ‌![架构图](./imgs/dev53.png)
 
 ### 二、将设计稿JSON基于DSL转化语言模板
@@ -103,3 +104,4 @@ DSL（领域专用语言）把设计稿JSON中的特征字段解析成我们想�
 12、美团（不开源）:<https://zhuanlan.zhihu.com/p/360099631>
 13、美团（不开源）:<https://tech.meituan.com/2020/05/21/waimai-sketch-plugin.html>
 14、sketch中文插件库：<https://oursketch.com/plugin>
+15,开源平台工具：https://github.com/nocobase/nocobase
